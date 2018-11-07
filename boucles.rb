@@ -22,3 +22,11 @@ end
  10.times do |i|
 	 puts "hello #{i}" #concaténation
 end
+
+#boucle de répétiton en ruby avec imbriquation de boucle de répétition
+10.times do |i|
+	puts "hello #{i}"
+	i.times do
+		puts "world"
+	end
+end
