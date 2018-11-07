@@ -11,9 +11,14 @@ utilisateur.each do |utilisateur|
 	puts utilisateur # affiche chaque utilisateur 
 end
 
-#boucle for en ruby
+#boucle de répétition en ruby
 #afficher 10 hello
 
 10.times do
 	puts "hello"
+end
+
+#boucle de répétition en ruby avec concaténation d'un  entier dans un strings
+ 10.times do |i|
+	 puts "hello #{i}" #concaténation
 end
