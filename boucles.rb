@@ -1,3 +1,4 @@
+
 utilisateur = ["Alice", "Wilfried", "Adurey", "Dimitri"]
 
 
@@ -10,6 +11,9 @@ utilisateur.each do |utilisateur|
 	puts utilisateur # affiche chaque utilisateur 
 end
 
+#boucle for en ruby
+#afficher 10 hello
+
 10.times do
-	puts "wilfried"
+	puts "hello"
 end
